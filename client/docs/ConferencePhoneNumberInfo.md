@@ -1,6 +1,7 @@
 # ConferencePhoneNumberInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **PhoneNumber** | **string** | Dial-in phone number to connect to a conference | [optional] 

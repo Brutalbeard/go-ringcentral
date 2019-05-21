@@ -1,6 +1,7 @@
 # VersionInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of API versions | [optional] 

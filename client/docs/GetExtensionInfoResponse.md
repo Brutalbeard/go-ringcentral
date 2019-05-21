@@ -1,6 +1,7 @@
 # GetExtensionInfoResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **int64** | Internal identifier of an extension | 
@@ -13,13 +14,15 @@ Name | Type | Description | Notes
 **Permissions** | [**ExtensionPermissions**](ExtensionPermissions.md) |  | [optional] 
 **ProfileImage** | [**ProfileImageInfo**](ProfileImageInfo.md) |  | 
 **References** | [**[]ReferenceInfo**](ReferenceInfo.md) | List of non-RC internal identifiers assigned to an extension | [optional] 
+**Roles** | [**[]Roles**](Roles.md) |  | [optional] 
 **RegionalSettings** | [**RegionalSettings**](RegionalSettings.md) |  | [optional] 
 **ServiceFeatures** | [**[]ExtensionServiceFeatureInfo**](ExtensionServiceFeatureInfo.md) | Extension service features returned in response only when the logged-in user requests his/her own extension info, see also Extension Service Features | [optional] 
-**SetupWizardState** | **string** | Specifies extension configuration wizard state (web service setup). The default value is &#39;NotStarted&#39; | [optional] 
+**SetupWizardState** | **string** | Specifies extension configuration wizard state (web service setup). | [optional] [default to SETUP_WIZARD_STATE_NOT_STARTED]
 **Status** | **string** | Extension current state. If the status is &#39;Unassigned&#39;. Returned for all extensions | 
 **StatusInfo** | [**ExtensionStatusInfo**](ExtensionStatusInfo.md) |  | [optional] 
 **Type** | **string** | Extension type | 
-**CallQueueInfo** | [**CallQueueInfo**](CallQueueInfo.md) |  | [optional] 
+**CallQueueExtensionInfo** | [**CallQueueExtensionInfo**](CallQueueExtensionInfo.md) |  | [optional] 
+**Hidden** | **bool** | Hides extension from showing in company directory. Supported for extensions of User type only | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

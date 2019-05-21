@@ -1,6 +1,7 @@
 # GetServiceInfoResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of the account Service Info resource | [optional] 

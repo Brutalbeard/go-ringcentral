@@ -1,6 +1,7 @@
 # BulkSupported
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MaxOperations** | **int32** |  | [optional] 

@@ -1,6 +1,7 @@
 # BusinessAddressInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Country** | **string** | Name of a country | [optional] 

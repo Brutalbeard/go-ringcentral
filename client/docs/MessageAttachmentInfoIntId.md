@@ -1,6 +1,7 @@
 # MessageAttachmentInfoIntId
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **int64** | Internal identifier of a message attachment | [optional] 

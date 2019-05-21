@@ -1,6 +1,7 @@
 # DictionaryGreetingList
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of greetings list resource | [optional] 

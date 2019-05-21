@@ -1,6 +1,7 @@
 # ModifyAccountBusinessAddressRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Company** | **string** | Company business name | [optional] 

@@ -1,6 +1,7 @@
 # GetVersionResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of the version info resource | [optional] 

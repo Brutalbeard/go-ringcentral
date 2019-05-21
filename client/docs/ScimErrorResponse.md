@@ -1,6 +1,7 @@
 # ScimErrorResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Detail** | **string** | detail error message | [optional] 

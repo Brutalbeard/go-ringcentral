@@ -1,6 +1,7 @@
 # AlertInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Title** | **string** | Title of a message | [optional] 

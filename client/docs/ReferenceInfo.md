@@ -1,6 +1,7 @@
 # ReferenceInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Ref** | **string** | Non-RC identifier of an extension | [optional] 

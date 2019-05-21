@@ -1,6 +1,7 @@
 # QueueInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **TransferMode** | **string** | Specifies how calls are transferred to group members | [optional] 

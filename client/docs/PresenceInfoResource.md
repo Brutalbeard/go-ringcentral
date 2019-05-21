@@ -1,6 +1,7 @@
 # PresenceInfoResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **UserStatus** | **string** |  | [optional] 

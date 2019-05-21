@@ -1,6 +1,7 @@
 # CallerIdByDevice
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Device** | [**CallerIdDeviceInfo**](CallerIdDeviceInfo.md) |  | [optional] 

@@ -1,6 +1,7 @@
 # CompanyBusinessHoursUpdateRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Schedule** | [**CompanyBusinessHoursScheduleInfo**](CompanyBusinessHoursScheduleInfo.md) |  | [optional] 

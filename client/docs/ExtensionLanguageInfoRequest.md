@@ -1,6 +1,7 @@
 # ExtensionLanguageInfoRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | internal Identifier of a language | [optional] 

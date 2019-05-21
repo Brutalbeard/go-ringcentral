@@ -1,6 +1,7 @@
 # DepartmentInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal identifier of a department extension | [optional] 

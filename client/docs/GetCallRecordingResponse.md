@@ -1,10 +1,11 @@
 # GetCallRecordingResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **string** | Internal identifier of the call recording | [optional] 
-**ContentUri** | **string** | Link to the call recording binary content | [optional] 
+**Id** | **string** | Internal identifier of a call recording | [optional] 
+**ContentUri** | **string** | Link to a call recording binary content | [optional] 
 **ContentType** | **string** | Call recording file format. Supported format is audio/x-wav | [optional] 
 **Duration** | **int32** | Recorded call duration | [optional] 
 

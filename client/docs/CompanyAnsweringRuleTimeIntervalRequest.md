@@ -1,6 +1,7 @@
 # CompanyAnsweringRuleTimeIntervalRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **From** | **string** | Time in format hh:mm | [optional] 

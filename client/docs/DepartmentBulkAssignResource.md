@@ -1,6 +1,7 @@
 # DepartmentBulkAssignResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Items** | [**[]BulkAssignItem**](BulkAssignItem.md) |  | [optional] 

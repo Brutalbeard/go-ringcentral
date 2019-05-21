@@ -1,6 +1,7 @@
 # GetRingOutStatusResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal identifier of a RingOut call | [optional] 

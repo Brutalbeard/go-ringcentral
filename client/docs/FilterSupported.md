@@ -1,6 +1,7 @@
 # FilterSupported
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MaxResults** | **int32** |  | [optional] 

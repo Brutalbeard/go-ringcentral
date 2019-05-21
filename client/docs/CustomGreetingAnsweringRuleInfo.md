@@ -1,6 +1,7 @@
 # CustomGreetingAnsweringRuleInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of an answering rule | [optional] 

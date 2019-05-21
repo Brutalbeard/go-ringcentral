@@ -1,6 +1,7 @@
 # PhoneLineResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **LineType** | **string** |  | [optional] 

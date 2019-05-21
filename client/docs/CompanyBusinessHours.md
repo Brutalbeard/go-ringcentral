@@ -1,6 +1,7 @@
 # CompanyBusinessHours
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of a business-hours resource  | [optional] 

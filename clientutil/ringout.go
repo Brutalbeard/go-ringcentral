@@ -1,7 +1,7 @@
 package clientutil
 
 import (
-	rc "github.com/grokify/go-ringcentral/client"
+	rc "github.com/brutalbeard/go-ringcentral/client"
 )
 
 type RingOutRequest struct {

@@ -1,6 +1,7 @@
 # CallLogRecordLegInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Action** | **string** | Action description of the call operation | [optional] 
@@ -14,7 +15,8 @@ Name | Type | Description | Notes
 **From** | [**CallLogCallerInfo**](CallLogCallerInfo.md) |  | [optional] 
 **To** | [**CallLogCallerInfo**](CallLogCallerInfo.md) |  | [optional] 
 **Transport** | **string** | Call transport | [optional] 
-**Recording** | [**RecordingInfo**](RecordingInfo.md) |  | [optional] 
+**Recording** | [**CallLogRecordingInfo**](CallLogRecordingInfo.md) |  | [optional] 
+**Master** | **bool** | Returned for &#39;Detailed&#39; call log. Specifies if the leg is master-leg | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

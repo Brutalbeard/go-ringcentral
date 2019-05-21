@@ -1,6 +1,7 @@
 # ActivePermissionResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Permission** | [**PermissionIdResource**](PermissionIdResource.md) |  | [optional] 

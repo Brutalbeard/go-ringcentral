@@ -1,6 +1,7 @@
 # UnconditionalForwardingInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **PhoneNumber** | **string** | Phone number to which the call is forwarded | [optional] 

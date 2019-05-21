@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strings"
 
-	rc "github.com/grokify/go-ringcentral/client"
-	ru "github.com/grokify/go-ringcentral/clientutil"
+	rc "github.com/brutalbeard/go-ringcentral/client"
+	ru "github.com/brutalbeard/go-ringcentral/clientutil"
 	"github.com/grokify/gotilla/mime/multipartutil"
 )
 

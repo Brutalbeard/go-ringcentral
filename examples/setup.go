@@ -5,7 +5,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	rc "github.com/grokify/go-ringcentral/client"
+	rc "github.com/brutalbeard/go-ringcentral/client"
 	ro "github.com/grokify/oauth2more/ringcentral"
 )
 

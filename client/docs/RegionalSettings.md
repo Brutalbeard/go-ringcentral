@@ -1,6 +1,7 @@
 # RegionalSettings
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **HomeCountry** | [**CountryInfo**](CountryInfo.md) |  | [optional] 

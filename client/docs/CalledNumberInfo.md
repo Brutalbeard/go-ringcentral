@@ -1,6 +1,7 @@
 # CalledNumberInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **PhoneNumber** | **string** | Called phone number | [optional] 

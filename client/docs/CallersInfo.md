@@ -1,6 +1,7 @@
 # CallersInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **CallerId** | **string** | Phone number of a caller | [optional] 

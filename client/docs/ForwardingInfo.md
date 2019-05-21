@@ -1,6 +1,7 @@
 # ForwardingInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **NotifyMySoftPhones** | **bool** | Specifies if the user&#39;s softphone(s) are notified before forwarding the incoming call to desk phones and forwarding numbers | [optional] 
@@ -8,6 +9,7 @@ Name | Type | Description | Notes
 **SoftPhonesRingCount** | **int32** | Number of rings before forwarding starts | [optional] 
 **RingingMode** | **string** | Specifies the order in which forwarding numbers ring. &#39;Sequentially&#39; means that forwarding numbers are ringing one at a time, in order of priority. &#39;Simultaneously&#39; means that forwarding numbers are ring all at the same time | [optional] 
 **Rules** | [**[]RuleInfo**](RuleInfo.md) | Information on a call forwarding rule | [optional] 
+**MobileTimeout** | **bool** | Specifies if mobile timeout is activated for the rule | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

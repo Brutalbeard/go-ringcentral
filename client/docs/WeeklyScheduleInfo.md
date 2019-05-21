@@ -1,6 +1,7 @@
 # WeeklyScheduleInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Monday** | [**[]TimeInterval**](TimeInterval.md) | Time intervals for a particular day | [optional] 

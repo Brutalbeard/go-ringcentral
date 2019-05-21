@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	rc "github.com/grokify/go-ringcentral/client"
+	rc "github.com/brutalbeard/go-ringcentral/client"
 )
 
 var rxMultiSpace = regexp.MustCompile(`\\s+`)

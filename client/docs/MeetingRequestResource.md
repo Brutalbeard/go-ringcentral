@@ -1,6 +1,7 @@
 # MeetingRequestResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Topic** | **string** |  | [optional] 
@@ -11,6 +12,7 @@ Name | Type | Description | Notes
 **AllowJoinBeforeHost** | **bool** |  | [optional] [default to false]
 **StartHostVideo** | **bool** |  | [optional] [default to false]
 **StartParticipantsVideo** | **bool** |  | [optional] [default to false]
+**UsePersonalMeetingId** | **bool** |  | [optional] 
 **AudioOptions** | **[]string** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

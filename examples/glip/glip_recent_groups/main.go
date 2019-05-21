@@ -12,8 +12,8 @@ import (
 	om "github.com/grokify/oauth2more"
 	"github.com/jessevdk/go-flags"
 
-	rc "github.com/grokify/go-ringcentral/client"
-	ru "github.com/grokify/go-ringcentral/clientutil"
+	rc "github.com/brutalbeard/go-ringcentral/client"
+	ru "github.com/brutalbeard/go-ringcentral/clientutil"
 )
 
 type Options struct {

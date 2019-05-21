@@ -1,6 +1,7 @@
 # TransferredExtensionInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Extension** | [**ExtensionInfo**](ExtensionInfo.md) |  | [optional] 

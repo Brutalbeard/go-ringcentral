@@ -1,6 +1,7 @@
 # MeetingResponseResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** |  | [optional] 
@@ -9,9 +10,11 @@ Name | Type | Description | Notes
 **Topic** | **string** |  | [optional] 
 **MeetingType** | **string** |  | [optional] 
 **Password** | **string** |  | [optional] 
+**H323Password** | **string** |  | [optional] 
 **Status** | **string** |  | [optional] 
 **Links** | [**MeetingLinks**](MeetingLinks.md) |  | [optional] 
 **Schedule** | [**MeetingScheduleResource**](MeetingScheduleResource.md) |  | [optional] 
+**Host** | [**HostInfoRequest**](HostInfoRequest.md) |  | [optional] 
 **AllowJoinBeforeHost** | **bool** |  | [optional] [default to false]
 **StartHostVideo** | **bool** |  | [optional] [default to false]
 **StartParticipantsVideo** | **bool** |  | [optional] [default to false]

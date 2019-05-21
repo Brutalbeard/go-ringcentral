@@ -1,6 +1,7 @@
 # ShippingResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Address** | [**EmergencyServiceAddressResource**](EmergencyServiceAddressResource.md) |  | [optional] 

@@ -1,6 +1,7 @@
 # VoicemailInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Enabled** | **bool** | If &#39;True&#39; then voicemails are allowed to be received | [optional] 

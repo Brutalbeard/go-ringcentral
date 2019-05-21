@@ -1,6 +1,7 @@
 # BulkAssignItem
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **DepartmentId** | **string** |  | [optional] 

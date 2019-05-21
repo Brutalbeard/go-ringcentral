@@ -1,6 +1,7 @@
 # ExtensionStatusInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Comment** | **string** | A free-form user comment, describing the status change reason | [optional] 

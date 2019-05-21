@@ -1,6 +1,7 @@
 # FaxResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **int64** | Internal identifier of a message | [optional] 
@@ -18,7 +19,7 @@ Name | Type | Description | Notes
 **FaxResolution** | **string** | Resolution of a fax message. (&#39;High&#39; for black and white image scanned at 200 dpi, &#39;Low&#39; for black and white image scanned at 100 dpi) | [optional] 
 **FaxPageCount** | **int32** | Page count in a fax message | [optional] 
 **LastModifiedTime** | [**time.Time**](time.Time.md) | Datetime when the message was modified on server in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z | [optional] 
-**CoverIndex** | **int32** | Cover page identifier. For the list of available cover page identifiers please call the method Fax Cover Pages | [optional] 
+**CoverIndex** | **int32** | Cover page identifier. For the list of available cover page identifiers please call the Fax Cover Pages method | [optional] 
 **CoverPageText** | **string** | Cover page text, entered by the fax sender and printed on the cover page. Maximum length is limited to 1024 symbols | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

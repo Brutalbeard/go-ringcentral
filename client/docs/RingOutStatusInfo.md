@@ -1,6 +1,7 @@
 # RingOutStatusInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **CallStatus** | **string** | Status of a call | [optional] 

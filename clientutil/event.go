@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	rc "github.com/grokify/go-ringcentral/client"
+	rc "github.com/brutalbeard/go-ringcentral/client"
 )
 
 const (
-	ThisDir = "src/github.com/grokify/go-ringcentral/clientutil"
+	ThisDir = "src/github.com/brutalbeard/go-ringcentral/clientutil"
 )
 
 // EventSimple is a event for Instant SMS for testing purposes

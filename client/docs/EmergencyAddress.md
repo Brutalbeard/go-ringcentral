@@ -1,6 +1,7 @@
 # EmergencyAddress
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Required** | **bool** |  &#39;True&#39; if specifying of emergency address is required | [optional] 

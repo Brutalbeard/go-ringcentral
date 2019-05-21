@@ -1,6 +1,7 @@
 # GetStateInfoResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal identifier of a state | [optional] 

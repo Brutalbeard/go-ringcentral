@@ -1,6 +1,7 @@
 # NotificationRecipientInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **PhoneNumber** | **string** | Phone number in E.164 (with &#39;+&#39; sign) format | [optional] 

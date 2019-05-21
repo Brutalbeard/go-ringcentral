@@ -1,6 +1,7 @@
 # PhoneNumberInfoConferencing
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Country** | [**GetCountryInfoConferencing**](GetCountryInfoConferencing.md) |  | [optional] 

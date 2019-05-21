@@ -1,6 +1,7 @@
 # DepartmentResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** |  | [optional] 

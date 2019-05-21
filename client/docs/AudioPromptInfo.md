@@ -1,6 +1,7 @@
 # AudioPromptInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Link to an prompt audio file | [optional] 

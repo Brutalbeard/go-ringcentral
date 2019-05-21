@@ -1,10 +1,11 @@
 # AccountBusinessAddressResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** |  | [optional] 
-**BusinessAddress** | [**ContactAddressInfo**](ContactAddressInfo.md) |  | [optional] 
+**BusinessAddress** | [**ContactBusinessAddressInfo**](ContactBusinessAddressInfo.md) |  | [optional] 
 **Company** | **string** |  | [optional] 
 **Email** | **string** |  | [optional] 
 

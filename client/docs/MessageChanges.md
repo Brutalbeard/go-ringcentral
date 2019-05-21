@@ -1,6 +1,7 @@
 # MessageChanges
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Type** | **string** | Message type | [optional] 

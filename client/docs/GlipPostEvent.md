@@ -1,6 +1,7 @@
 # GlipPostEvent
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal identifier of a post | [optional] 
@@ -12,8 +13,8 @@ Name | Type | Description | Notes
 **AddedPersonIds** | **[]string** | For PersonsAdded post type only. Identifiers of persons added to a group | [optional] 
 **RemovedPersonIds** | **[]string** | For PersonsRemoved post type only. Identifiers of persons removed from a group | [optional] 
 **Mentions** | [**[]GlipMentionsInfo**](GlipMentionsInfo.md) | List of at mentions in post text with names. | [optional] 
-**CreationTime** | [**time.Time**](time.Time.md) | Post creation datetime in ISO 8601 format | [optional] 
-**LastModifiedTime** | [**time.Time**](time.Time.md) | Post last change datetime in ISO 8601 format | [optional] 
+**CreationTime** | [**time.Time**](time.Time.md) | Post creation datetime in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format | [optional] 
+**LastModifiedTime** | [**time.Time**](time.Time.md) | Post last change datetime in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

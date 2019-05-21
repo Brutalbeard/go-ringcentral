@@ -1,6 +1,7 @@
 # DetailedCallInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **CallId** | **string** |  | [optional] 

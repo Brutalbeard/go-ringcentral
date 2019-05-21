@@ -1,6 +1,7 @@
 # AuthProfileResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** |  | [optional] 

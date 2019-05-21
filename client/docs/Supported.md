@@ -1,6 +1,7 @@
 # Supported
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Supported** | **bool** |  | [optional] [default to false]

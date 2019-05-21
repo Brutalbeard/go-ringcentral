@@ -1,6 +1,7 @@
 # EditPagingGroupRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **AddedUserIds** | **[]string** | List of users that will be allowed to page a group specified | [optional] 

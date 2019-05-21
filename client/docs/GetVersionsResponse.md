@@ -1,6 +1,7 @@
 # GetVersionsResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of the API version | [optional] 

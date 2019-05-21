@@ -1,6 +1,7 @@
 # StatusInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Reason** | **string** |  | [optional] 

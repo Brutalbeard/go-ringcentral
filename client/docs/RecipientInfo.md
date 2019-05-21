@@ -1,6 +1,7 @@
 # RecipientInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Link to a recipient extension resource | [optional] 

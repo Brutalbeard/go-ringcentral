@@ -1,6 +1,7 @@
 # IvrMenuExtensionInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Link to an extension resource | [optional] 

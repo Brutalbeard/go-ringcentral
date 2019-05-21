@@ -1,6 +1,7 @@
 # IvrMenuInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal identifier of an IVR Menu extension | [optional] 

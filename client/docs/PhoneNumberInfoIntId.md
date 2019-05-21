@@ -1,12 +1,13 @@
 # PhoneNumberInfoIntId
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **int64** | Internal identifier of a phone number | [optional] 
-**Country** | [**CountryInfo**](CountryInfo.md) |  | [optional] 
+**Country** | [**PhoneNumberCountryInfo**](PhoneNumberCountryInfo.md) |  | [optional] 
 **Extension** | [**ExtensionInfo**](ExtensionInfo.md) |  | [optional] 
-**Label** | **string** | Custom user name of a phone number, if any. Supported for numbers assigned to Auto-Receptionist, with usage type &#39;CompanyNumber&#39; | [optional] 
+**Label** | **string** | Custom user name of a phone number, if any | [optional] 
 **Location** | **string** | Location (City, State). Filled for local US numbers | [optional] 
 **PaymentType** | **string** | Payment type. &#39;External&#39; is returned for forwarded numbers which are not terminated in the RingCentral phone system | [optional] 
 **PhoneNumber** | **string** | Phone number | [optional] 

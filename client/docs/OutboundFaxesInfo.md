@@ -1,6 +1,7 @@
 # OutboundFaxesInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **NotifyByEmail** | **bool** | Email notification flag | [optional] 

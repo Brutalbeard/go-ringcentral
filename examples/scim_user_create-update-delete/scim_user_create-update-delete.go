@@ -9,8 +9,8 @@ import (
 	"github.com/grokify/gotilla/fmt/fmtutil"
 	"github.com/joho/godotenv"
 
-	rc "github.com/grokify/go-ringcentral/client"
-	rcu "github.com/grokify/go-ringcentral/clientutil"
+	rc "github.com/brutalbeard/go-ringcentral/client"
+	rcu "github.com/brutalbeard/go-ringcentral/clientutil"
 )
 
 func loadEnv() error {

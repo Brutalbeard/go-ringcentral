@@ -1,6 +1,7 @@
 # ForwardingNumberResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** |  | [optional] 
@@ -9,6 +10,7 @@ Name | Type | Description | Notes
 **Label** | **string** |  | [optional] 
 **Features** | **[]string** |  | [optional] 
 **FlipNumber** | **string** |  | [optional] 
+**Type** | **string** | Forwarding phone number type | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

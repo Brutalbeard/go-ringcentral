@@ -1,6 +1,7 @@
 # EnterpriseUser
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Department** | **string** |  | [optional] 

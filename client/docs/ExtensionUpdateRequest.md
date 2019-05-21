@@ -1,6 +1,7 @@
 # ExtensionUpdateRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Status** | **string** |  | [optional] 
@@ -15,7 +16,7 @@ Name | Type | Description | Notes
 **IvrPin** | **string** | IVR PIN | [optional] 
 **Password** | **string** | Password for extension | [optional] 
 **CallQueueInfo** | [**CallQueueInfoRequest**](CallQueueInfoRequest.md) |  | [optional] 
-**Transition** | **string** | For NotActivated extensions only. Welcome email setting | [optional] 
+**Transition** | [**[]UserTransitionInfo**](UserTransitionInfo.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

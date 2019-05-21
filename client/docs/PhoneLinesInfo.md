@@ -1,6 +1,7 @@
 # PhoneLinesInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **LineType** | **string** | Type of phone line | [optional] 

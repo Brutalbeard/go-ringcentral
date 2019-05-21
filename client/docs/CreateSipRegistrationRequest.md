@@ -1,6 +1,7 @@
 # CreateSipRegistrationRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Device** | [**[]DeviceInfoRequest**](DeviceInfoRequest.md) | Device unique description | 

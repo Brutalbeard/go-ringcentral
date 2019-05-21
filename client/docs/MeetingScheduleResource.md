@@ -1,6 +1,7 @@
 # MeetingScheduleResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **StartTime** | **string** |  | [optional] 

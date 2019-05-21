@@ -1,9 +1,10 @@
 # NotificationInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Alerts** | [**AlertInfo**](AlertInfo.md) |  | [optional] 
+**Alert** | [**AlertInfo**](AlertInfo.md) |  | [optional] 
 **Badge** | **string** | Number of incoming messages | [optional] 
 **Sound** | **string** | Message sound | [optional] 
 **ContentAvailable** | **string** | Content availability | [optional] 

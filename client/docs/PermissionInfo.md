@@ -1,6 +1,7 @@
 # PermissionInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Enabled** | **bool** | Specifies if a permission is enabled or not | [optional] 

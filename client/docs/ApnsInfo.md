@@ -1,6 +1,7 @@
 # ApnsInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Aps** | [**ApsInfo**](APSInfo.md) |  | [optional] 

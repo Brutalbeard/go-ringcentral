@@ -1,6 +1,7 @@
 # ListCompanyAnsweringRuleInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal identifier of an answering rule | [optional] 

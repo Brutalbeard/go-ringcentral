@@ -11,8 +11,8 @@ import (
 	"github.com/joho/godotenv"
 	log "github.com/sirupsen/logrus"
 
-	rc "github.com/grokify/go-ringcentral/client"
-	rcu "github.com/grokify/go-ringcentral/clientutil"
+	rc "github.com/brutalbeard/go-ringcentral/client"
+	rcu "github.com/brutalbeard/go-ringcentral/clientutil"
 	ro "github.com/grokify/oauth2more/ringcentral"
 )
 

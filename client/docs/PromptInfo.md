@@ -1,6 +1,7 @@
 # PromptInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Internal identifier of a prompt | [optional] 

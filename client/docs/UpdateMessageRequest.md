@@ -1,6 +1,7 @@
 # UpdateMessageRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **ReadStatus** | **string** | Read status of a message to be changed. Multiple values are accepted | [optional] 

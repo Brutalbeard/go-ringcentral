@@ -1,6 +1,7 @@
 # DeviceInfoRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Device unique identifier, retrieved on previous session (if any) | [optional] 

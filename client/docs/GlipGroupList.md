@@ -1,6 +1,7 @@
 # GlipGroupList
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Records** | [**[]GlipGroupInfo**](GlipGroupInfo.md) | List of groups/teams/private chats | 

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/grokify/go-ringcentral/clientutil/mergedusers"
+	"github.com/brutalbeard/go-ringcentral/clientutil/mergedusers"
 	"github.com/grokify/gotilla/fmt/fmtutil"
 )
 

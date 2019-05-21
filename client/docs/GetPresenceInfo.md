@@ -1,6 +1,7 @@
 # GetPresenceInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of a presence info resource | [optional] 
@@ -13,6 +14,7 @@ Name | Type | Description | Notes
 **RingOnMonitoredCall** | **bool** | If &#39;True&#39; enables to ring extension phone, if any user monitored by this extension is ringing | [optional] 
 **TelephonyStatus** | **string** | Telephony presence status | [optional] 
 **UserStatus** | **string** | User-defined presence status (as previously published by the user) | [optional] 
+**MeetingStatus** | **string** | RingCentral Meetings presence | [optional] 
 **ActiveCalls** | [**[]ActiveCallInfo**](ActiveCallInfo.md) | Information on active calls | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

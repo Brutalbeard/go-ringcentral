@@ -1,6 +1,7 @@
 # GlipPosts
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Records** | [**[]GlipPostInfo**](GlipPostInfo.md) | List of posts | 

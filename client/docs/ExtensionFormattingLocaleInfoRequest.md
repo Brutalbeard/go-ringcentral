@@ -1,6 +1,7 @@
 # ExtensionFormattingLocaleInfoRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Internal Identifier of a formatting language | [optional] 

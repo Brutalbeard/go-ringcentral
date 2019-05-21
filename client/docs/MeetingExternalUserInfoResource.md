@@ -1,6 +1,7 @@
 # MeetingExternalUserInfoResource
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** |  | [optional] 
@@ -8,6 +9,8 @@ Name | Type | Description | Notes
 **AccountId** | **string** |  | [optional] 
 **UserType** | **int64** |  | [optional] 
 **UserToken** | **string** |  | [optional] 
+**HostKey** | **string** |  | [optional] 
+**PersonalMeetingId** | **string** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

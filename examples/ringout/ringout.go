@@ -7,7 +7,7 @@ import (
 
 	"github.com/grokify/gotilla/fmt/fmtutil"
 
-	rc "github.com/grokify/go-ringcentral/client"
+	rc "github.com/brutalbeard/go-ringcentral/client"
 	"github.com/grokify/go-ringcentral/examples"
 	scu "github.com/grokify/gotilla/strconv/strconvutil"
 )

@@ -1,6 +1,7 @@
 # ScheduleInfoUserBusinessHours
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **WeeklyRanges** | [**WeeklyScheduleInfo**](WeeklyScheduleInfo.md) |  | [optional] 

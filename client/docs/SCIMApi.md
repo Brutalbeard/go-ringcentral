@@ -1,59 +1,33 @@
 # \SCIMApi
 
-All URIs are relative to *https://platform.devtest.ringcentral.com*
+All URIs are relative to *https://platform.ringcentral.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**CreateUser**](SCIMApi.md#CreateUser) | **Post** /scim/v2/Users | Create User
-[**DeleteUser**](SCIMApi.md#DeleteUser) | **Delete** /scim/v2/Users/{id} | Delete User
-[**GetServiceProviderConfig**](SCIMApi.md#GetServiceProviderConfig) | **Get** /scim/v2/ServiceProviderConfig | Get Service Provider Config
-[**GetUserById**](SCIMApi.md#GetUserById) | **Get** /scim/v2/Users/{id} | Get User
-[**ListUsers**](SCIMApi.md#ListUsers) | **Get** /scim/v2/Users | Get User List
-[**PatchUser**](SCIMApi.md#PatchUser) | **Patch** /scim/v2/Users/{id} | Partially update/patch a user
-[**SearchUsersViaPost**](SCIMApi.md#SearchUsersViaPost) | **Post** /scim/v2/Users/.search | search or list users
-[**UpdateUser**](SCIMApi.md#UpdateUser) | **Put** /scim/v2/Users/{id} | Update or replace user
+[**CheckHealth**](SCIMApi.md#CheckHealth) | **Get** /scim/health | check health
+[**CheckHealth2**](SCIMApi.md#CheckHealth2) | **Get** /scim/v2/health | check health
+[**CreateUser**](SCIMApi.md#CreateUser) | **Post** /scim/Users | create a user
+[**CreateUser2**](SCIMApi.md#CreateUser2) | **Post** /scim/v2/Users | Create User
+[**DeleteUser2**](SCIMApi.md#DeleteUser2) | **Delete** /scim/v2/Users/{id} | Delete User
+[**PatchUser2**](SCIMApi.md#PatchUser2) | **Patch** /scim/v2/Users/{id} | Update/Patch User
+[**ReadServiceProviderConfig**](SCIMApi.md#ReadServiceProviderConfig) | **Get** /scim/ServiceProviderConfig | Get Service Provider Config
+[**ReadServiceProviderConfig2**](SCIMApi.md#ReadServiceProviderConfig2) | **Get** /scim/v2/ServiceProviderConfig | Get Service Provider Config
+[**ReadUser2**](SCIMApi.md#ReadUser2) | **Get** /scim/v2/Users/{id} | Get User
+[**ReplaceUser2**](SCIMApi.md#ReplaceUser2) | **Put** /scim/v2/Users/{id} | Update/Replace User
+[**SearchViaGet**](SCIMApi.md#SearchViaGet) | **Get** /scim/Users | search or list users
+[**SearchViaGet2**](SCIMApi.md#SearchViaGet2) | **Get** /scim/v2/Users | Search or List Users
+[**SearchViaPost2**](SCIMApi.md#SearchViaPost2) | **Post** /scim/v2/Users/.search | Search or List Users
 
 
-# **CreateUser**
-> UserInfo CreateUser(ctx, userCreationRequest)
-Create User
 
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Creates a user.</p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>EditAccounts</td><td>Viewing and updating user account info (including name, business name, address and phone number/account number)</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
+## CheckHealth
 
-### Required Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-  **userCreationRequest** | [**UserCreationRequest**](UserCreationRequest.md)| a new user without &#39;id&#39; | 
-
-### Return type
-
-[**UserInfo**](UserInfo.md)
-
-### Authorization
-
-[OAuth2](../README.md#OAuth2)
-
-### HTTP request headers
-
- - **Content-Type**: application/json, application/scim+json
- - **Accept**: application/json, application/scim+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-# **DeleteUser**
-> DeleteUser(ctx, id)
-Delete User
-
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p></p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>EditAccounts</td><td>Deleting User using scim</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
+> CheckHealth(ctx, )
+check health
 
 ### Required Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-  **id** | **string**| Internal identifier of a user | 
+This endpoint does not need any parameter.
 
 ### Return type
 
@@ -65,18 +39,201 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json, application/scim+json
+- **Content-Type**: Not defined
+- **Accept**: Not defined
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
 
-# **GetServiceProviderConfig**
-> ServiceProviderConfig GetServiceProviderConfig(ctx, )
-Get Service Provider Config
 
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Returns the list of users requested.</p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>ReadAccounts</td><td>Viewing Service Provider confiog</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
+## CheckHealth2
+
+> CheckHealth2(ctx, )
+check health
 
 ### Required Parameters
+
+This endpoint does not need any parameter.
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: Not defined
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## CreateUser
+
+> UserResponse CreateUser(ctx, optional)
+create a user
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+ **optional** | ***CreateUserOpts** | optional parameters | nil if no parameters
+
+### Optional Parameters
+
+Optional parameters are passed through a pointer to a CreateUserOpts struct
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**optional.Interface of User**](User.md)| a new user without &#39;id&#39; | 
+
+### Return type
+
+[**UserResponse**](UserResponse.md)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## CreateUser2
+
+> UserResponse CreateUser2(ctx, optional)
+Create User
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+ **optional** | ***CreateUser2Opts** | optional parameters | nil if no parameters
+
+### Optional Parameters
+
+Optional parameters are passed through a pointer to a CreateUser2Opts struct
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**optional.Interface of User**](User.md)| a new user without &#39;id&#39; | 
+
+### Return type
+
+[**UserResponse**](UserResponse.md)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## DeleteUser2
+
+> DeleteUser2(ctx, id)
+Delete User
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**id** | **string**| user id | 
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## PatchUser2
+
+> UserResponse PatchUser2(ctx, id, optional)
+Update/Patch User
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**id** | **string**| user id | 
+ **optional** | ***PatchUser2Opts** | optional parameters | nil if no parameters
+
+### Optional Parameters
+
+Optional parameters are passed through a pointer to a PatchUser2Opts struct
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+
+ **body** | [**optional.Interface of UserPatch**](UserPatch.md)| patch operations list | 
+
+### Return type
+
+[**UserResponse**](UserResponse.md)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## ReadServiceProviderConfig
+
+> ServiceProviderConfig ReadServiceProviderConfig(ctx, )
+Get Service Provider Config
+
+### Required Parameters
+
 This endpoint does not need any parameter.
 
 ### Return type
@@ -89,27 +246,26 @@ This endpoint does not need any parameter.
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json, application/scim+json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
 
-# **GetUserById**
-> UserInfo GetUserById(ctx, id)
-Get User
 
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Returns a user by ID.</p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>ReadAccounts</td><td>Viewing user account info (including name, business name, address and phone number/account number)</td></tr></tbody></table><h4>API Group</h4><p>Light</p>
+## ReadServiceProviderConfig2
+
+> ServiceProviderConfig ReadServiceProviderConfig2(ctx, )
+Get Service Provider Config
 
 ### Required Parameters
 
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-  **id** | **string**| Internal identifier of a user | 
+This endpoint does not need any parameter.
 
 ### Return type
 
-[**UserInfo**](UserInfo.md)
+[**ServiceProviderConfig**](ServiceProviderConfig.md)
 
 ### Authorization
 
@@ -117,36 +273,114 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json, application/scim+json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
 
-# **ListUsers**
-> GetUserListResponse ListUsers(ctx, optional)
-Get User List
 
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Returns the list of users requested.</p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>ReadAccounts</td><td>Viewing user account info (including name, business name, address and phone number/account number)</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
+## ReadUser2
+
+> UserResponse ReadUser2(ctx, id)
+Get User
 
 ### Required Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
- **optional** | ***ListUsersOpts** | optional parameters | nil if no parameters
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**id** | **string**| user id | 
+
+### Return type
+
+[**UserResponse**](UserResponse.md)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## ReplaceUser2
+
+> UserResponse ReplaceUser2(ctx, id, optional)
+Update/Replace User
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**id** | **string**| user id | 
+ **optional** | ***ReplaceUser2Opts** | optional parameters | nil if no parameters
 
 ### Optional Parameters
-Optional parameters are passed through a pointer to a ListUsersOpts struct
+
+Optional parameters are passed through a pointer to a ReplaceUser2Opts struct
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+
+ **body** | [**optional.Interface of User**](User.md)| an existing user | 
+
+### Return type
+
+[**UserResponse**](UserResponse.md)
+
+### Authorization
+
+[OAuth2](../README.md#OAuth2)
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
+
+
+## SearchViaGet
+
+> UserSearchResponse SearchViaGet(ctx, optional)
+search or list users
+
+### Required Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+ **optional** | ***SearchViaGetOpts** | optional parameters | nil if no parameters
+
+### Optional Parameters
+
+Optional parameters are passed through a pointer to a SearchViaGetOpts struct
+
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **optional.String**| only support &#39;userName&#39; or &#39;email&#39; filter expressions for now | 
- **count** | **optional.Int32**| page size | [default to 100]
  **startIndex** | **optional.Int32**| start index (1-based) | [default to 1]
+ **count** | **optional.Int32**| page size | [default to 100]
 
 ### Return type
 
-[**GetUserListResponse**](GetUserListResponse.md)
+[**UserSearchResponse**](UserSearchResponse.md)
 
 ### Authorization
 
@@ -154,36 +388,41 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json, application/scim+json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
 
-# **PatchUser**
-> UserInfo PatchUser(ctx, id, optional)
-Partially update/patch a user
 
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p></p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>EditAccounts</td><td>Partially update/patch a user</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
+## SearchViaGet2
+
+> UserSearchResponse SearchViaGet2(ctx, optional)
+Search or List Users
 
 ### Required Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-  **id** | **string**| Internal identifier of a user | 
- **optional** | ***PatchUserOpts** | optional parameters | nil if no parameters
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+ **optional** | ***SearchViaGet2Opts** | optional parameters | nil if no parameters
 
 ### Optional Parameters
-Optional parameters are passed through a pointer to a PatchUserOpts struct
+
+Optional parameters are passed through a pointer to a SearchViaGet2Opts struct
+
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
-
- **scimUserPatch** | [**optional.Interface of ScimUserPatch**](ScimUserPatch.md)| patch operations list | 
+ **filter** | **optional.String**| only support &#39;userName&#39; or &#39;email&#39; filter expressions for now | 
+ **startIndex** | **optional.Int32**| start index (1-based) | [default to 1]
+ **count** | **optional.Int32**| page size | [default to 100]
 
 ### Return type
 
-[**UserInfo**](UserInfo.md)
+[**UserSearchResponse**](UserSearchResponse.md)
 
 ### Authorization
 
@@ -191,34 +430,39 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: application/json, application/scim+json
- - **Accept**: application/json, application/scim+json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
 
-# **SearchUsersViaPost**
-> GetUserListResponse SearchUsersViaPost(ctx, optional)
-search or list users
 
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Returns the list of users requested.</p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>ReadAccounts</td><td>Searching SCIM Users</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
+## SearchViaPost2
+
+> UserSearchResponse SearchViaPost2(ctx, optional)
+Search or List Users
 
 ### Required Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
- **optional** | ***SearchUsersViaPostOpts** | optional parameters | nil if no parameters
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+ **optional** | ***SearchViaPost2Opts** | optional parameters | nil if no parameters
 
 ### Optional Parameters
-Optional parameters are passed through a pointer to a SearchUsersViaPostOpts struct
+
+Optional parameters are passed through a pointer to a SearchViaPost2Opts struct
+
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **scimSearchRequestInfo** | [**optional.Interface of ScimSearchRequestInfo**](ScimSearchRequestInfo.md)| search parameters | 
+ **body** | [**optional.Interface of SearchRequest**](SearchRequest.md)| search parameters | 
 
 ### Return type
 
-[**GetUserListResponse**](GetUserListResponse.md)
+[**UserSearchResponse**](UserSearchResponse.md)
 
 ### Authorization
 
@@ -226,37 +470,10 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: application/json, application/scim+json
- - **Accept**: application/json, application/scim+json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-# **UpdateUser**
-> UserInfo UpdateUser(ctx, id, userUpdateRequest)
-Update or replace user
-
-<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p></p><h4>Required Permissions</h4><table class='fullwidth'><thead><tr><th>Permission</th><th>Description</th></tr></thead><tbody><tr><td class='code'>EditExtensions</td><td>Updating User using SCIM</td></tr></tbody></table><h4>API Group</h4><p>Medium</p>
-
-### Required Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-  **id** | **string**| Internal identifier of a user | 
-  **userUpdateRequest** | [**UserUpdateRequest**](UserUpdateRequest.md)| An Exisiting User | 
-
-### Return type
-
-[**UserInfo**](UserInfo.md)
-
-### Authorization
-
-[OAuth2](../README.md#OAuth2)
-
-### HTTP request headers
-
- - **Content-Type**: application/json, application/scim+json
- - **Accept**: application/json, application/scim+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
 

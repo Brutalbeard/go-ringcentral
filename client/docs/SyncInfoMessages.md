@@ -1,6 +1,7 @@
 # SyncInfoMessages
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **SyncType** | **string** | Type of synchronization | [optional] 

@@ -1,6 +1,7 @@
 # LocationInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Uri** | **string** | Canonical URI of a location | [optional] 

@@ -1,6 +1,7 @@
 # CompanyAnsweringRuleWeeklyScheduleInfoRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Monday** | [**[]CompanyAnsweringRuleTimeIntervalRequest**](CompanyAnsweringRuleTimeIntervalRequest.md) | Time interval for a particular day | [optional] 

@@ -8,7 +8,7 @@ import (
 	"github.com/grokify/gotilla/config"
 	"github.com/grokify/gotilla/fmt/fmtutil"
 
-	ru "github.com/grokify/go-ringcentral/clientutil"
+	ru "github.com/brutalbeard/go-ringcentral/clientutil"
 	ro "github.com/grokify/oauth2more/ringcentral"
 )
 

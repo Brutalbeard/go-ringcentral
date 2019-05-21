@@ -1,10 +1,11 @@
 # PromptLanguageInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Uri** | **string** | Link to prompt language | [optional] 
-**Id** | **string** | Internal identifier of an language | [optional] 
+**Uri** | **string** | Link to a prompt language | [optional] 
+**Id** | **string** | Internal identifier of a language | [optional] 
 **Name** | **string** | Language name | [optional] 
 **LocaleCode** | **string** | Language locale code | [optional] 
 

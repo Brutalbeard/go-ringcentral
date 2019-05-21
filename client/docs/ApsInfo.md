@@ -1,6 +1,7 @@
 # ApsInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **ContentAvailable** | **int32** | If the value is &#39;1&#39; then notification is turned on even if the application is in background | [optional] 
