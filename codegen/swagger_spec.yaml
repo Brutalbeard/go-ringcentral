@@ -13495,7 +13495,7 @@ definitions:
       phoneNumber:
         type: string
         description: Phone number in E.164 format
-  MakeRingOutCoutryInfo:
+  MakeRingOutCountryInfo:
     type: object
     properties:
       id:

@@ -10,7 +10,7 @@
 
 package ringcentral
 
-type MakeRingOutCoutryInfo struct {
+type MakeRingOutCountryInfo struct {
 	// Dialing plan country identifier
 	Id string `json:"id,omitempty"`
 }

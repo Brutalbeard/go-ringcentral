@@ -16,5 +16,5 @@ type MakeRingOutRequest struct {
 	CallerId MakeRingOutCallerInfoRequestTo   `json:"callerId,omitempty"`
 	// The audio prompt that the calling party hears when the call is connected
 	PlayPrompt bool                  `json:"playPrompt,omitempty"`
-	Country    MakeRingOutCoutryInfo `json:"country,omitempty"`
+	Country    MakeRingOutCountryInfo `json:"country,omitempty"`
 }
