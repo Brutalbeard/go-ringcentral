@@ -8,7 +8,7 @@ import (
 	"github.com/grokify/gotilla/fmt/fmtutil"
 
 	rc "github.com/brutalbeard/go-ringcentral/client"
-	"github.com/grokify/go-ringcentral/examples"
+	"github.com/brutalbeard/go-ringcentral/examples"
 	scu "github.com/grokify/gotilla/strconv/strconvutil"
 )
 
@@ -38,7 +38,7 @@ func main() {
 	body := ringoutBodyEnv()
 	fmtutil.PrintJSON(body)
 
-	info, resp, err := apiClient.RingOutApi.MakeRingOutCallNew(
+	info, resp, err := apiClient.RingOutApi.CreateRingOutCall(
 		context.Background(), "~", "~", *body,
 	)
 	if err != nil {
